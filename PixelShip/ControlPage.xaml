@@ -1,0 +1,17 @@
+﻿<Page x:Class="PixelShip.ControlPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PixelShip"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="950"
+      Title="ControlPage">
+    <Page.Background>
+        <ImageBrush ImageSource="CaptureControl.png" Stretch="Fill" TileMode="None"/>
+    </Page.Background>
+
+    <Grid>
+        <Button Content="Back" Margin="770,516,34.4,10" Background="#FF001D3B" FontFamily="/PixelShip;component/#Star Jedi Logo MonoLine" BorderBrush="White" RenderTransformOrigin="0.501,0.503" Click="Button_Click"  />
+    </Grid>
+</Page>
